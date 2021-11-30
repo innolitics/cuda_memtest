@@ -1,0 +1,14 @@
+Source: cudagpumemtest
+Section: healthineers
+Priority: extra
+Maintainer: Mobius Medical Systems, LP (Software updates and license files) <help@mobiusmed.com>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: https://sourceforge.net/projects/cudagpumemtest/
+
+Package: cudagpumemtest
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: CUDA GPU memtest
+ Provided by Varian Medical Systems
